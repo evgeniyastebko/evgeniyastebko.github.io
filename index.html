@@ -1,0 +1,365 @@
+<html lang="ua"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>ЦарЗвірів</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Navbar -->
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-0">
+				  <!-- Brand/logo -->
+				  <a class="navbar-brand" href="#">
+				    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbeDTrNZXpLSljOnknWHgdlR512j6hG18glG-R_HfI5kEc3-z2Q" alt="logo" style="width:160px;">
+				  </a>
+				   <!-- Toggler/collapsibe Button -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <!-- Links -->
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+					  <ul class="navbar-nav ml-auto">
+					    <li class="nav-item py-2">
+					      <a class="nav-link" href="#">Головна</a>
+					    </li>
+					    <li class="nav-item py-2">
+					      <a class="nav-link" href="#">Відгуки</a>
+					    </li>
+					    <li class="nav-item py-2">
+					      <a class="nav-link" href="#">Купити</a>
+					    </li>
+					    <li class="nav-item py-2">
+					      <a class="nav-link" href="#">Контакти</a>
+					    </li>
+					  </ul>
+				</div>
+				</nav>
+			</div>
+		</div>
+		
+		<!-- Slider -->
+		<div class="container slider px-0">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="demo" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ul class="carousel-indicators">
+					    <li data-target="#demo" data-slide-to="0" class=""></li>
+					    <li data-target="#demo" data-slide-to="1" class=""></li>
+					    <li data-target="#demo" data-slide-to="2" class="active"></li>
+					  </ul>
+
+					  <!-- The slideshow -->
+					  <div class="carousel-inner">
+					    <div class="carousel-item">
+					      <img src="https://politeka.net/wp-content/uploads/2019/04/025c2c7cad5001d-5c2c7c9e0bc9d-lion-3317670-1280_crop_1200.jpg" width="1200" height="550" alt="Lion">
+					    </div>
+					    <div class="carousel-item active carousel-item-left">
+					      <img src="https://beztabu.net/uploads/770x433_DIR/media_news/2018/11/5bf7aa9fc6201795452955.jpg" width="1200" height="550" alt="Litle lion">
+					    </div>
+					    <div class="carousel-item carousel-item-next carousel-item-left">
+					      <img src="https://img.tsn.ua/cached/1540764934/tsn-8ef996fbeaebf7621936189b51062f05/thumbs/1340x530/a5/90/a06a178648dfc325c805a60f50b990a5.jpeg" width="1200" height="550" alt="Lioness">
+					    </div>
+					  </div>
+					 
+					  <!-- Left and right controls -->
+					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					    <span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#demo" data-slide="next">
+					    <span class="carousel-control-next-icon"></span>
+					  </a>
+					</div>		
+				</div>
+			</div>
+			<div class="row py-lg-5 mt-lg-5 py-md-3 mt-md-0 un_slider">
+				<div class="col-lg-1 d-none d-lg-block mt-lg-4"></div>
+				<div class="col-lg-6 col-md-12">
+					<div class="title_header mt-5">
+						<div class="logo_big px-lg-0 px-md-4 px-sm-5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBX_nNoazLtFkbO10YUSK9IWXvc218GNX0HXU3qlpkQ_rXpq2" alt="logotype"></div>
+						<p class="title_head px-lg-0 px-md-4 px-sm-5">ПОДБАЙТЕ ПРО ЛЕВА</p>
+					</div>
+					<p class="text px-lg-0 px-md-4 px-sm-5">Дана програма допоможе розробити <br> ефективну систему догляду за левом</p>
+					<button type="button" class="btn btn-outline-light download_button d-none d-lg-block">Завантажити</button>
+				</div>
+				<div class="col-lg-4 d-none d-lg-block">
+					<form class="form_registry my-5" action="#">
+						<p class="form_title">Спробуйте <span>безкоштовно</span></p>
+						<p><input class="u_info" id="user_name" type="text" name="" placeholder="Ім'я"></p>
+						<p><input class="u_info" id="user_mail" type="email" name="" placeholder="Електронна пошта"> </p>
+						<p><input class="u_info" id="user_password" type="password" name="" placeholder="Пароль"></p>
+						<button onclick="SendMessage()" class="button_form">Розпочнімо</button>
+					</form>
+				</div>
+				<div class="col-lg-1 d-none d-lg-block"></div>
+			</div>
+		</div>
+		<!-- Social -->
+		<div class="container social py-4 ">
+			<div class="row d-flex align-items-center justify-content-around">
+	        	<div class="col-lg-4 col-md-5 col-sm-12">        		
+			       	<div class="left_box px-3">
+						<p class="soc_title">Cоціальні мережі</p>
+						<p class="soc_text">Ми в соціальних мережах,  підпишіться і отримайте знижку!</p>
+					</div>	
+				</div>	
+				<div class="col-lg-1 d-none d-lg-block"></div>
+			    <div class="col-lg-1 col-md-1 col-1 px-0">
+			    	<a href="https://www.facebook.com/" target="blank"><div class="fb">&nbsp;</div></a>
+			    </div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://twitter.com/" target="blank"><div class="tw">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://plus.google.com/" target="blank"><div class="gplus">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.pinterest.com/" target="blank"><div class="pin">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.instagram.com/" target="blank"><div class="insta">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.stumbleupon.com/" target="blank"><div class="stumble">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="http://www.feedicons.com/" target="blank"><div class="feed">&nbsp;</div></a>
+				</div>
+	        
+	        </div>
+	    </div> 
+        <!-- Tabs -->
+  		<div class="tabs">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-2 col-lg-2 col-md-12">
+						<ul class="nav nav-pills nav-stacked flex-xl-column flex-lg-column flex-row justify-content-md-start justify-content-sm-start">
+							<li class="active"><a href="#tab_a" data-toggle="pill">Цікавинки про лева</a></li>
+							<li><a href="#tab_b" data-toggle="pill">Знак зодіаку</a></li>
+							<li><a href="#tab_c" data-toggle="pill">Лев</a></li>
+						</ul>
+					</div>
+					<div class="col-xl-10 col-lg-10 col-md-12">
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab_a">
+								<div class="row">
+									<div class="col-lg-7">
+										<h3>Цікаві факти про лева.</h3>
+										<p>Леви мешкають у степах і саванах і полюють на тварин середнього і великого розміру, насамперед, на копитних. Здобувати великих тварин (буйволів і жираф) їм допомагає колективний спосіб життя. Леви розходяться і займають певні позиції. Є леви-загоничі, вони підкрадаються до жертви на невелику відстань, після чого кидаються на здобич, спрямовуючи вибрану тварину на групу, що очікує в засідці. Самець допомагає завалити велику здобич, якщо потрібна груба сила і вага. </p>
+										<p>І навіть кіт, одягнутий у плаття, виглядав з коляски і мріяв про початок занять у школі...</p>
+									</div>
+									<div class="col-xl-5 col-lg-5">
+										<img src="https://i.pinimg.com/originals/80/63/fd/8063fd859e29c5f845f89f1557adc54c.gif" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_b">
+								<div class="row">
+									<div class="col-lg-7">
+										<h3>Знак зодіаку Лев</h3>
+										<p> Лев - п'ятий знак зодіаку, відповідний сектору екліптики від 120 ° до 150 °, рахуючи від точки весняного рівнодення; постійний знак тригона Вогонь.
+                                        У західній астрології вважається, що Сонце знаходиться в знаку Лева приблизно з 23 липня по 21 серпня. Не слід плутати знак Лева з сузір'ям Лева, в якому Сонце перебуває з 10 серпня по 15 вересня.
+                                        Знаком Лева управляє Сонце і тут у вигнанні Сатурн.</p>
+									</div>
+									<div class="col-xl-5 col-lg-5">
+										<img src="https://javasea.ru/uploads/posts/2013-12/1386957467_znak-zodiaka-lev.gif" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_c">
+								<div class="row">
+									<div class="col-lg-7">
+										<h3>Зовнішній вигляд лева.</h3>
+										<p>Леви — єдині кішки, у яких самці виразно відрізняються від самиць. Дорослі леви-самці відрізняються великою гривою і є набагато більшими за левиць. Лев вважається дорослим у 5 років і до цього моменту набирає свого оптимального «бойового» розміру. Самці важать 150—225 кг, в окремих випадках — до 240 кг при довжині тіла без хвоста 1,7-2,5 м, хвіст — 90-110 см, висота в загривку 90-125 см. Маса самиць становить 100—150 кг, в окремих випадках до 160 кг.</p>
+										<p>Найважчий лев був убитий в 1936 році в Трансваалі, він важив 313 кг.</p>
+									</div>
+									<div class="col-xl-5 col-lg-5">
+										<img src="https://i.pinimg.com/originals/4e/b4/78/4eb478af292365ad1b216eeec11829f1.gif" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<section class="section1 container">
+			<div class="row">
+				<div class="col-lg-5">
+					<img src="https://media0.giphy.com/media/1fgkYyYok2gxJ1lyTP/giphy.gif" class="img-fluid">
+				</div>
+				<div class="col-lg-7">
+					<h3 class="title_sect">Поведінка лева</h3>
+					<div class="divider"></div>
+					<p>Леви мешкають у степах і саванах і полюють на тварин середнього і великого розміру, насамперед, на копитних. Здобувати великих тварин (буйволів і жираф) їм допомагає колективний спосіб життя. Леви розходяться і займають певні позиції. Є леви-загоничі, вони підкрадаються до жертви на невелику відстань, після чого кидаються на здобич, спрямовуючи вибрану тварину на групу, що очікує в засідці. Самець допомагає завалити велику здобич, якщо потрібна груба сила і вага. </p>
+					<div class="row">
+						<div class="col-lg-12">
+							 <div class="media border p-3">
+							    <img src="http://zooblog.ru/wp-content/uploads/2017/03/1476125107_pride-1.jpg" alt="rabbit" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+							    <div class="media-body">
+							      <h4>Прайд</h4>
+							      <p>Леви є хижими ссавцями і живуть в сімейних групах, так званих прайдах. Прайд складається з одного-трьох самців, кількох статевозрілих самиць і левенят обох статей. Самиці займаються полюванням для прайду, а самці — охороною території.</p>   
+							    </div>
+							  </div>
+							  <div class="media border p-3">
+							    <img src="http://africaners.com/wp-content/uploads/2015/01/L-vy-.jpg" alt="rabbit" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+							    <div class="media-body">
+							      <ol>
+							      	У прайді рідко буває більше трьох дорослих самців, тому що, підростаючи, молоді леви починають відвойовувати верховенство ватажка. Якщо їм це не вдається, їх зазвичай виганяють з прайду, і вони або створюють свій власний, або якийсь час ведуть самотнє життя. Предки левів, як і решти котячих, були одинаками. Тому, незважаючи на соціальний устрій зграй, характер левиних прайдів доволі унікальний. Ієрархія всередині прайду або виражена слабко, або зовсім відсутня, що вкрай нетипово для зграйних тварин. Ця особливість виражається в постійних конфліктах всередині прайду і в тому, що, як правило, жоден з левів, навіть дорослий самець, не володіє незаперечним авторитетом. З цього також випливає, що в левових співтовариствах не буває ватажка. Незважаючи на те, що дорослий самець є найсильнішою особиною в прайді, він не ухвалює ніяких рішень. Коли йти на полювання, на яку тварину нападати, на яку територію перейти у пошуках здобичі — все це вирішують самиці, але навіть вони не діють згуртовано. На полюванні, як правило, кожен лев сам вибирає собі ціль; іноді вони розбиваються на пари, які діють спільно. Все це дуже незвично для соціальних тварин і говорить про те, що лев'ячий прайд не є зграєю, в загальному розумінні цього слова. Це швидше група сильних осіб, присутніх разом з потреби, але які так і не навчилися діяти як одна команда.
+							      </ol>
+							     				      
+							    </div>
+							  </div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="section2 container">
+			<div class="row">
+				<div class="col-lg-7">
+					<h3 class="title_sect">Розмноження левів</h3>
+					<div class="divider"></div>
+					<p>Через три з половиною місяці після спаровування вагітна левиця йде від прайду, відшукує відокремлений, зарослий травою куточок і там народжує потомство. Левенята народжуються сліпими і безпорадними. Виживає в більшості випадків не більше половини всіх левенят.
+                    Левенята смокчуть материнське молоко з народження і до шести-семимісячного віку. Потім вони їдять тільки м'ясо.
+                    У віці близько двох місяців левенята приєднуються до прайду.</p>
+				</div>
+				<div class="col-lg-5">
+					<img src="http://www.russika.ru/userimages/459_4205_1264725299.gif" class="img-fluid">
+				</div>
+			</div>
+		</section>
+
+		<section class="section3 container py-5">
+			<div class="row pt-5 pb-4">
+				<div class="col-7 mx-auto">
+					<h2 class="text-center">Ніщо не відбувається з нічого</h2>
+				</div>
+			</div>
+			<form class="form1">
+			  <div class="form-group row py-3">
+			  	<div class="col-lg-1"></div>
+			    <div class="col-lg-4 my-1">
+			      <input type="text" class="form-control" placeholder="Ім'я">
+			    </div>
+			    <div class="col-lg-3 my-1">
+			      <input type="tel" class="form-control" placeholder="+38 (0__) __-__-___">
+			    </div>
+			    <div class="col-lg-3 my-1">
+			      <input type="number" class="form-control" placeholder="Кількість товару в шт.">
+			    </div>
+			    <div class="col-lg-1"></div>
+			  </div>
+			  <div class="form-group row py-4">
+			  	<div class="col-lg-8 mx-auto">
+				    <button type="submit" class="btn btn-outline-light btn-lg btn-block order_button">Замовити</button>
+				</div>
+			  </div>
+			</form>
+		</section>
+
+		<section class="section4 container pt-5">
+			<div class="row pt-5 pb-4">
+				<div class="col-12">
+					<h2 class="text-center">Якщо Вам нудно, напишіть до нас...<br>Будемо раді бачити новий спам!</h2>
+					<p class="text-center">Давайте спершу перекусимо, а дружелюбність проявите потім.</p>
+				</div>
+			</div>
+			<form class="form2">
+			  <div class="form-group row py-3 ">
+			  	<div class="col-lg-6">
+			      <input type="text" class="form-control" placeholder="Як звати">
+			      <input type="email" class="form-control" placeholder="Куди електронні листи писати">
+			      <input type="text" class="form-control" placeholder="Що в темі говорити">
+			    </div>
+			    <div class="col-lg-6">
+			      <textarea class="form-control" rows="8" id="comment" placeholder="І що ви про це все думаєте?"></textarea>
+			    </div>
+			  </div>
+			  <div class="form-group row pb-5 pt-3 mb-0">
+			  	<div class="col-lg-2 mx-auto">
+				    <button type="submit" class="btn btn-warning btn-block send_button">Відправити</button>
+				</div>
+			  </div>
+			</form>
+		</section>
+
+		<div class="container footer">
+			<div class="row py-4 d-flex align-items-center justify-content-around">
+				<div class="col-lg-1 d-none d-lg-block"></div>
+				<div class="col-lg-2 col-md-2 d-flex align-items-center">
+					<p class="copyright m-0">© 2019</p>
+				</div>
+				<div class="col-lg-2 col-md-3"></div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.facebook.com/" target="blank"><div class="fb">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://twitter.com/" target="blank"><div class="tw">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://plus.google.com/" target="blank"><div class="gplus">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.pinterest.com/" target="blank"><div class="pin">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.instagram.com/" target="blank"><div class="insta">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="https://www.stumbleupon.com/" target="blank"><div class="stumble">&nbsp;</div></a>
+				</div>
+				<div class="col-lg-1 col-md-1 col-1 px-0">
+					<a href="http://www.feedicons.com/" target="blank"><div class="feed">&nbsp;</div></a>
+				</div>
+	
+			</div>
+		</div>
+             
+	
+
+	</div>
+	
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript">
+		function SendMessage() {
+			let userName = document.getElementById('user_name').value;
+			let userMail = document.getElementById('user_mail').value;
+			let userPass = document.getElementById('user_password').value;
+			alert(userName);
+			alert(userMail);
+			alert(userPass);
+
+		}
+		
+		let activTab = document.querySelectorAll(".tabs li");
+		for (let i = 0; i < activTab.length; i++){
+			activTab[i].addEventListener('click', changeTab)
+		};
+		function changeTab() {
+			let noActiveTab = document.querySelectorAll(".tabs li");
+			for (let i = 0; i < noActiveTab.length; i++){
+				noActiveTab[i].classList.remove("active");
+			};
+			console.dir(this);
+			this.classList.add("active");
+		}
+
+	</script>
+
+</body></html>
